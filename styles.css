@@ -1,0 +1,91 @@
+/*aula 04 */
+body{ 
+    background-color: #ffffff00;
+}
+#formulario{ position: absolute;
+     margin: 20px auto; 
+     background-color: transparent;
+    }
+
+#formulario fieldset{
+    position: absolute;
+    background: #999;
+    width: 170px;
+    height: 290px;
+    margin-left: 800px;
+    margin-top: 50px;
+ }
+ #formulario fieldset legend{
+    position: absolute;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#dados{
+    position: absolute;
+    margin-top: 30px;
+}
+
+#dados label{
+ position: relative;
+ /* background-color: aqua; */
+ text-align: center;
+ margin-left: 55px;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ font-size: 20px;
+}
+
+#dados input{
+    border: none;
+    border-radius: 2px;
+    height: 30px;
+}
+
+#imc-calc{
+    position: absolute;
+    margin-left:845px ;
+    margin-top: 340px;
+    /* border: 1px solid black; */
+    border-radius: 4px;
+    width: 110px;
+    height: 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+#tabela th{
+    position: relative;
+    border: 1px solid black;
+    left: 745px;
+    top: 385px;
+    text-align: center;
+}
+#tabela td{
+    position: relative;
+    left: 745px;
+    top: 390px;
+    text-align: center;
+    border: 1px solid black;
+    padding: 5px;
+    width: 150px;
+    letter-spacing: 1px;
+}
+
+#imc-classe{
+  position: absolute;
+  margin-top: 700px;
+  left: 715px;
+}
+
+#imc-classe label{
+    display: flex;
+    margin-left:155px;
+    font-size: 20px;
+    text-align: center;
+}
+#imc-classe input{
+    width: 400px;
+    height: 20px;
+    text-align: center;
+}
